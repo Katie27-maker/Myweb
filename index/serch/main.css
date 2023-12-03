@@ -1,0 +1,87 @@
+body {
+	height: 100vh;	/*스크롤을 하기 위해서 값을 줌*/
+	height: 100vw;
+	/* display: grid;
+	gap: 10px; */	
+
+	font-family: 'Gowun Dodum', sans-serif;
+	background: #ee9ca7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+img {
+	height: 230px;
+	width: 210px;
+	margin: 5px;
+	border-radius: 3px;
+	/* flex-direction: column; 여기에 안 해도 상관없어서 주석 처리함*/ 
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0; left: 0;
+
+	background: #ee9ca7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.textStyle {
+	width: 100%;
+	height: 67px;
+}
+
+/* 버튼 스타일 정렬 */
+.search-bar {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-inp > input {
+	width: 150px;
+	height: 25px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	text-align: center;
+	font-size: 15px;
+}
+
+#getDataButton {
+	width: 70px;
+	height: 25px;
+	border-radius: 10px;
+	margin-left: 20px;
+	border: none;
+	outline: none;
+	font-size: 13px;
+}
+
+#saving {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+}
+
+.section {
+	background: #FFEFBA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#img-thumbnail {
+	margin-top: 150px;
+	text-align: center;
+}
+
+
+.dropdown {
+	margin-left: 20px;
+	margin-top: 5px;
+	}

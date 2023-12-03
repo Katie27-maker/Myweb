@@ -1,0 +1,89 @@
+body {
+	background: #ee9ca7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.textStyle {
+	width: 100%;
+	height: 70px;
+}
+
+
+/* 네비게이션 */
+.navigation {
+    position: absolute;
+    top: 5px; /* 원하는 위치에 따라 top 및 right 값을 조절하세요 */
+    right: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333; /* 텍스트 색상을 원하는 색상으로 설정하세요 */
+    font-weight: bold;
+}
+
+
+
+.topBackground {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+	margin-bottom: 20px;
+}
+
+/*입력창 크기 조정 */
+input {
+	width: 300px;
+	height: 40px;
+	border-radius: 30px;
+	margin-top: 10px;
+	text-align: center;
+	margin-left: 15px;
+
+
+	outline: none;
+	border: solid 1px #dee0e5;		/*radius를 적용할 떄 생기는 내부 그림자 없애기*/
+}
+
+/* submil버튼 */
+.btn > #submitBtn {
+	width: 300px;
+	height: 40px;
+	margin-left: 0px;
+
+	margin-top: 30px;
+	background-color: #f06292;
+	color: white;
+	text-align: center;
+	outline: none;
+	border: solid 1px #dee0e5;
+	border-radius: 20px;
+}
+
+.btn > .authSubmit {
+	text-align: center;
+}
+
+
+.dropdown {
+	margin-left: 20px;
+	margin-top: 5px;
+	}
